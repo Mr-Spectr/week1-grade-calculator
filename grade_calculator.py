@@ -165,7 +165,7 @@ def main():
         show_menu()
         choice = input("Choose an option (1-6): ").strip()
         if choice == "6":
-            print("Goodbye — keep learning Python!")
+            print("Goodbye - keep learning Python!")
             break
         action = actions.get(choice)
         if action:
